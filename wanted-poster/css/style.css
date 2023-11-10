@@ -54,7 +54,7 @@ main {
 
 /* Headings  */
 
-h1 {
+   h1 {
     text-transform: uppercase;
     font-size:6rem;
     margin: 0;
@@ -63,9 +63,9 @@ h1 {
     text-shadow:.09375rem .09375rem .09375rem #000;
     font-family:'Alfa Slab One', Garamond, serif;
     text-align:center;
-}
+       }
 
-h2{text-transform: uppercase;
+  h2{text-transform: uppercase;
     font-size:3rem;
     margin: 0;
     letter-spacing: .25rem;
@@ -74,8 +74,8 @@ h2{text-transform: uppercase;
     font-family:'Alfa Slab One', Garamond, serif;
     text-align:center;
     font-weight:normal;
-}
-h3{text-transform: uppercase;
+    }
+ h3{text-transform: uppercase;
     font-size:2rem;
     margin: 0;
     letter-spacing: .5rem;
@@ -83,7 +83,7 @@ h3{text-transform: uppercase;
     font-family:'Alfa Slab One', Garamond, serif;
     text-align:center;
     font-weight:normal;
-}
+   }
 h4{
 
     text-transform: uppercase;
@@ -95,10 +95,10 @@ h4{
     font-family:'Alfa Slab One', Garamond, serif;
     text-align:center;
     padding-bottom:1.125rem
-}
-span{
+  }
+         h4 span{
     padding:0rem .5rem 
-}
+        }
 h5{font: size 1rem;
     margin-top:.25rem;
     padding:.5rem;
@@ -106,45 +106,38 @@ h5{font: size 1rem;
     color:#fff;
     text-align:center;
     font-weight:normal;
+  }
 
-
-}
-
-/* Section & Paragraph */
-SECTION{
+    SECTION{
     margin: .5rem;
-
-}
-p{
+    }
+   p{
     margin:1rem auto;
     padding:0 1rem;
     width: 90%;
     text-align: left;
+   }
 
-}
-
-/* Image & Figure */
-figure{
+  figure{
     margin-bottom:2rem;
-}
+    }
 
-figcaption{
+  figcaption{
     padding-top:.5rem;
     text-align:right;
-}
+  }
 
-img{
+ img{
    width:100%;
    margin:0rem auto;
    max-width:50rem;
-}
-/* Footer */
+} 
 
 footer
-{
+    {
     padding:1rem;
     border-top:solid;
     border-top-width:2rem ;
     border-top-color:#333; 
-}
+    }
 
