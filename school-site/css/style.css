@@ -79,19 +79,72 @@ header, footer {
 
 /* Imported Typfaces */
 
+@font-face {
+    src:
+    url("../fonts/josefinslab-regular.ttf") ;format("true type");
+    font-style: normal;
+    font-weight: 400 normal; 
+    font-family: JoseFinSlab;
+}
+@font-face {
+    src:
+    url("../fonts/montserrat-regular.ttf") ;format("true type");
+    font-style: normal;
+    font-weight: 400 normal; 
+    font-family: Monstserrat;
+}
 
 
 
 
 /* Typography Styles */
-
-
-
-
+html{
+    font-family:Monstserrat,Arial, Helvetica, sans-serif;
+}
+h1,
+h2{
+    letter-spacing: .125rem;
+    font-family: Josefinslab,Georgia, 'Times New Roman', Times, serif
+}
+h1{
+    font-size: 3.75 rem;
+    margin:1.125 rem;
+    text-align:center;
+}
+h2{
+    font-size:1.5rem;
+}
+h2+p{
+    text-indent: 1.5rem;
+}
+p,
+li{
+    font-size: 0.75 rem;
+    letter-spacing:0.03125rem;
+    word-spacing: 0.125em; ;
+}
+figcaption{
+    font-size:0.75 rem;
+    margin-bottom: 2rem;
+}
 
 
 /* Link Styling */
+a{
+    text-decoration:none;
+    color:#33658A
 
+
+}
+a:link,
+a:visited{
+    color:#33658A
+}
+
+a:hover,
+a:focus{
+    text-decoration:none;
+}
 
 
 
@@ -106,7 +159,27 @@ header, footer {
 
 /* Navigation Menu */
 
+nav{
+    padding-left:0;
+    margin-top:.25rem
+}
+nav a{
+    display:inline-block;
+    width:100%;
+    line-height:3;
+    text-align:center;
+    font-size:1.125rem;
+    margin-bottom:1.5rem;
+    border: solid 0.0625rem #33658A;
 
+}
+nav a: hover{
+    background-color: #33658A;
+    color:#fff;
+    
+
+
+}
 
 
 
