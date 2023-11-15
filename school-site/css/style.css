@@ -81,14 +81,14 @@ header, footer {
 
 @font-face {
     src:
-    url("../fonts/josefinslab-regular.ttf") ;format("true type");
+    url("../fonts/josefinslab-regular.ttf"),format("true type");
     font-style: normal;
     font-weight: 400 normal; 
     font-family: JoseFinSlab;
-}
+} 
 @font-face {
     src:
-    url("../fonts/montserrat-regular.ttf") ;format("true type");
+    url("../fonts/montserrat-regular.ttf"),format("true type");
     font-style: normal;
     font-weight: 400 normal; 
     font-family: Monstserrat;
@@ -119,23 +119,21 @@ h2+p{
 }
 p,
 li{
-    font-size: 0.75 rem;
+    font-size: 0.75rem;
     letter-spacing:0.03125rem;
     word-spacing: 0.125em; ;
 }
 figcaption{
-    font-size:0.75 rem;
-    margin-bottom: 2rem;
+    font-size:0.75rem;
+    margin-bottom:2rem;
 }
 
 
 /* Link Styling */
 a{
     text-decoration:none;
-    color:#33658A
-
-
 }
+
 a:link,
 a:visited{
     color:#33658A
@@ -151,7 +149,16 @@ a:focus{
 
 
 /* List Styling */
-
+ul,
+ol
+  {
+    margin: 1 0rem;
+    list-style-type:square;
+  }
+ol
+ {
+  list-style-type:lower-alpha;
+}
 
 
 
@@ -173,9 +180,11 @@ nav a{
     border: solid 0.0625rem #33658A;
 
 }
-nav a: hover{
+nav a:hover{
     background-color: #33658A;
-    color:#fff;
+    color:#FFF;
+
+
     
 
 
