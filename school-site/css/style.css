@@ -144,10 +144,6 @@ a:focus{
     text-decoration:none;
 }
 
-
-
-
-
 /* List Styling */
 ul,
 ol
@@ -160,10 +156,6 @@ ol
   list-style-type:lower-alpha;
 }
 
-
-
-
-
 /* Navigation Menu */
 
 nav{
@@ -171,6 +163,7 @@ nav{
     margin-top:.25rem
 }
 nav a{
+    text-decoration: none;
     display:inline-block;
     width:100%;
     line-height:3;
@@ -178,23 +171,19 @@ nav a{
     font-size:1.125rem;
     margin-bottom:1.5rem;
     border: solid 0.0625rem #33658A;
+    background-color: #000;
+    color: #FFF;
 
 }
 nav a:hover{
     background-color: #33658A;
-    color:#FFF;
-
-
-    
-
-
+    color:#FFF
 }
 
-
-
-
 /* Footer Styles */
-
+footer{
+    text-align:center ;
+}
 
 
 
