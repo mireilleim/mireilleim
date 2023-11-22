@@ -156,11 +156,13 @@ ol
   list-style-type:lower-alpha;
 }
 
+.long-list a :hover
+
 /* Navigation Menu */
 
 nav{
     padding-left:0;
-    margin-top:.25rem
+    margin-top: .25rem;
 }
 nav a{
     text-decoration: none;
@@ -170,14 +172,16 @@ nav a{
     text-align:center;
     font-size:1.125rem;
     margin-bottom:1.5rem;
-    border: solid 0.0625rem #33658A;
-    background-color: #000;
-    color: #FFF;
+    border: solid 0.0625rem #33658A;    
 
 }
 nav a:hover{
     background-color: #33658A;
-    color:#FFF
+    color:#FFF;
+}
+nav a:active{
+    background-color: #000;
+    color: #FFF;
 }
 
 /* Footer Styles */
